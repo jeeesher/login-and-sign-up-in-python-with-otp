@@ -40,10 +40,10 @@
             $mail->SMTPAuth = true;
             $mail->SMTPSecure = 'tls';
 
-            $mail->Username = 'bulaonronanne@gmail.com'; // Replace with your email
-            $mail->Password = 'ngdh fznl gexg feet'; // Replace with your email password
+            $mail->Username = 'email@gmail.com'; // Replace with your email
+            $mail->Password = 'password'; // Replace with your email password
 
-            $mail->setFrom('bulaonronanne@gmail.com', 'OTP Verification');
+            $mail->setFrom('email@gmail.com', 'OTP Verification');
             $mail->addAddress($email);
 
             $mail->isHTML(true);
